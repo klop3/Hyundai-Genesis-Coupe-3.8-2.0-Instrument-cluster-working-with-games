@@ -1,0 +1,15 @@
+format([Gear],'0') + ';' +
+format([Rpms],'0') + ';' +
+format([SpeedKmh],'0') + ';' +
+format([WaterTemperature],'0') + ';' +
+'0' + ';' +
+format(if([AbsActive],1,0),'0') + ';' +
+format(if([Rpms] < 1 || [DataCorePlugin.GamePaused] == 1 || [DataCorePlugin.GameRunning] == 0, 0, 1),'0') + ';' +
+'0' + ';' +
+[TurnIndicatorLeft] + ';' +
+[TurnIndicatorRight] + ';' +
+format(if([GameRawData.light_HighBeam],1,0),'0') + ';' +
+format(if([GameRawData.wheel_isDeflated_fl] || [GameRawData.wheel_isDeflated_fr] || [GameRawData.wheel_isDeflated_rl] || [GameRawData.wheel_isDeflated_rr], 1, 0),'0') + ';' +
+format(if([Handbrake],1,0),'0') + ';' +
+format(if([TCActive] == 1, 1, 0),'0') +
+'\n'
