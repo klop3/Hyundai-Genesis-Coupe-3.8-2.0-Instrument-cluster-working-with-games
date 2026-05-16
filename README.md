@@ -1,7 +1,5 @@
-<img width="1232" height="654" alt="Snimek_obrazovky_2026-05-03_151639" src="https://github.com/user-attachments/assets/802a1f3a-d6b3-4e60-a817-fd5cb67c0eab" />
-
-
-
-
 
 # Hyundai-Genesis-Coupe-3.8-2.0-Instrument-cluster-working-with-games
+<img width="1397" height="1231" alt="2 (1)" src="https://github.com/user-attachments/assets/5adec289-c4d7-4ac2-8135-3904320c1c16" />
+
+# working sweep 
